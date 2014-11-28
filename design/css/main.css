@@ -5,7 +5,7 @@
    ========================================================================== */
 
 .jumbotron {
-    background-image: url('../img/bg-blur.jpg');
+    background-image: url('../img/bg_4.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -14,9 +14,16 @@
 
 
 
+.fronttitle{text-align:center;color:#000!important;font-size:80px;line-height:100px;text-shadow:1px 0 #eee,0 1px #ccc,2px 1px #eee,1px 2px #ccc,3px 2px #eee,2px 3px #ccc,4px 3px #eee,3px 4px #ccc; margin-top: 70px;}.fronttitle
 
+.brand{color:#8B0000;font-size:6vw;letter-spacing:10px;
 
+    font-weight: bold;
+}
 
+.navbar {
+    background-color: #8B0000; 
+}
 
 
 

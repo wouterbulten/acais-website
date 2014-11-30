@@ -1,32 +1,73 @@
 
 
 /* ==========================================================================
-   Author's custom styles
+   ACAIS custom styles
    ========================================================================== */
 
-.jumbotron {
-    background-image: url('../img/bg_4.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 100vh;
-    text-align: center;
-}
-
-
-
-.fronttitle{text-align:center;color:#000!important;font-size:80px;line-height:100px;text-shadow:1px 0 #eee,0 1px #ccc,2px 1px #eee,1px 2px #ccc,3px 2px #eee,2px 3px #ccc,4px 3px #eee,3px 4px #ccc; margin-top: 70px;}.fronttitle
-
-.brand{color:#8B0000;font-size:6vw;letter-spacing:10px;
-
-    font-weight: bold;
-}
-
+/* Top navigation */
 .navbar {
-    background-color: #8B0000; 
+	
+}
+
+/* Home page lead */
+
+.jumbotron.landing {
+/*	background: url("../img/bg-front.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;*/
+	height: 100vh;
+}
+.jumbotron.landing img.bg {
+	/* Set rules to fill background */
+	height: 100vh;
+	min-width: 1280px;
+
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+
+	/* Set up positioning */
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	/* Filters */
+	-webkit-filter: opacity(.8) blur(5px);
+  	filter: opacity(.8) blur(5px);
+	clip: rect(5px,1275px,598px,5px);
+	
+	overflow:hidden;
+	
+}
+@media screen and (max-width: 1275px) { /* Specific to this particular image, TODO: match dimensions with image */
+  .jumbotron.landing img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
 }
 
 
+.fronttitle{
+	margin-top: 20vh;
+}
 
+.fronttitle .brand{
+	color:#8B0000;
+	font-size:6vw;
+	letter-spacing:10px;
+    font-weight: bold;
+	text-shadow:0px 0px 0 rgb(245,245,245),0px 1px 0 rgb(236,236,236),0px 2px 0 rgb(226,226,226),0px 3px 0 rgb(216,216,216), 0px 4px 0 rgb(206,206,206),0px 5px 4px rgba(0,0,0,1),0px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+}
 
+.fronttitle .theme {
+	color: #fff;
+	text-shadow:0px 0px 0 rgb(231,231,231),0px 1px 0 rgb(217,217,217),0px 2px 0 rgb(203,203,203), 0px 3px 0 rgb(189,189,189),0px 4px 3px rgba(0,0,0,0.6),0px 4px 1px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,.2);
+	
+	font-size:80px;
+}
 
-
+.landing .lead {
+	color: #fff;
+}

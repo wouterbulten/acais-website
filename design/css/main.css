@@ -12,15 +12,14 @@
 /* Home page lead */
 
 .jumbotron.landing {
-/*	background: url("../img/bg-front.jpg") no-repeat center center fixed; 
+	background: url("../img/bg-front-filter.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
-	background-size:cover;*/
-	background: url("../img/bg-front-filter.jpg");
+	background-size:cover;
+	
+	border-bottom: 2px solid #8B0000;
 }
-
-
 
 .fronttitle{
 	margin-top: 80px;

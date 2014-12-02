@@ -9,10 +9,10 @@
 	background-color: #c0392b;
 }
 
-.navbar-default .navbar-brand {
+.navbar-inverse .navbar-brand {
 	color: #fff;
 }
-.navbar-default .navbar-brand:hover {
+.navbar-inverse .navbar-brand:hover {
 	color: black;
 }
 
@@ -68,4 +68,22 @@
 }
 .tile-features .tile-image {
 	height: 150px;
+}
+
+/* Programme table */
+
+.table-programme td, th {
+	text-align: center;
+}
+.table-programme td:first-child, th:first-child {
+	text-align: left;
+}
+
+/* Footer */
+.footer-banner {
+	background-color: #c0392b;
+	color: #f5edec;
+}
+.footer-banner a {
+	color: #f5edec;
 }

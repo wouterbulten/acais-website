@@ -63,11 +63,9 @@
 }
 /* Homepage panels */
 
-.feature-panel {
-	border: 1px solid #e7e7e7;
-	border-width: 1px 2px 4px 1px;
-	margin-bottom: 40px;
+.tile-features .tile {
+
 }
-.feature-panel-image {
-	padding: 0;
+.tile-features .tile-image {
+	height: 150px;
 }

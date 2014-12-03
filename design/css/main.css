@@ -96,7 +96,20 @@
 .table-programme .programme-parallel td{
 	height: 75px;
 }
+/* Committee overview */
+.committee-overview ul {
+	padding-left: 14px;
+}
+.committee-overview li {
+	font-size: 12px;
+}
+.committee-overview h3 {
+	font-size: 15px;
+}
 /* Footer */
+footer {
+	margin-top: 50px;
+}
 .footer-banner {
 	background-color: #c0392b;
 	color: #f5edec;

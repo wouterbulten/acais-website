@@ -22,6 +22,9 @@
 .navbar .navbar-nav li a:hover {
 	color: black;
 }
+.navbar .navbar-nav li a.order-tickets {
+	background-color: #1ABC9C;
+}
 
 /* Home page lead */
 
@@ -72,13 +75,27 @@
 
 /* Programme table */
 
+.table-programme {
+	margin-top: 30px;
+}
 .table-programme td, th {
 	text-align: center;
 }
-.table-programme td:first-child, th:first-child {
-	text-align: left;
+.table-programme>tbody>tr>td {
+	height: 50px;
+	vertical-align:middle;
 }
-
+.table-programme td:first-child, th:first-child {
+	/* time column */
+	text-align: left;
+	vertical-align: top;
+}
+.table-programme .programme-keynote, .table-programme .programme-discussion {
+	height: 100px;
+}
+.table-programme .programme-parallel td{
+	height: 75px;
+}
 /* Footer */
 .footer-banner {
 	background-color: #c0392b;

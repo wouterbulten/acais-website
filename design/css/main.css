@@ -73,6 +73,21 @@
 	height: 150px;
 }
 
+.feature-overview-list .fa {
+	color: #8B0000;
+	padding-right: 15px;
+}
+.feature-overview-list li {
+	list-style-type: none;
+	font-size: 20px;
+}
+.feature-overview-list ul {
+	margin-left: -40px;
+}
+.feature-overview-list small {
+	font-size: 10px;
+}
+
 /* Keynote section */
 .keynote-image {
 	margin-top: 100px;

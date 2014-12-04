@@ -47,7 +47,7 @@
 	font-size:80px;
 	letter-spacing:10px;
     font-weight: bold;
-	text-shadow: 1px 2px 0px white;
+	text-shadow: 0px 2px 0px white;
 }
 
 .fronttitle .theme {
@@ -73,6 +73,10 @@
 	height: 150px;
 }
 
+/* Keynote section */
+.keynote-image {
+	margin-top: 100px;
+}
 /* Programme table */
 
 .table-programme {

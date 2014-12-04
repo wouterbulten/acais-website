@@ -27,7 +27,7 @@
         <!--[if lt IE 9]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar navbar-inverse navbar-fixed-top  main-nav" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -36,7 +36,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">ACAIS 2015</a>
+                    <a class="navbar-brand" href="#home">ACAIS 2015</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -52,7 +52,7 @@
         </div>
 
         <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron landing">
+        <div class="jumbotron landing" id="home">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
@@ -435,16 +435,16 @@
 		</footer>
 		
 		
-        <!--
+        
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script>
 		window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')
 		</script>
 
 		<script src="js/vendor/bootstrap.min.js"></script>
-
-		<script src="js/main.js"></script>
-		-->
+		<script>
+			$('body').scrollspy({ target: '.main-nav', offset: 200 });
+		</script>
     </body>
 
 </html>

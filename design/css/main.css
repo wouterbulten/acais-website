@@ -4,6 +4,9 @@
    ACAIS custom styles
    ========================================================================== */
 
+body {
+	position: relative; /* For scrollspy */
+}
 /* Top navigation */
 .navbar {
 	background-color: #c0392b;
@@ -18,6 +21,10 @@
 
 .navbar .navbar-nav li a {
 	color: #fff;
+}
+.navbar .navbar-nav li.active a {
+	background-color: #c0392b;
+	color: black;
 }
 .navbar .navbar-nav li a:hover {
 	color: black;

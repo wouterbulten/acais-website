@@ -4,22 +4,33 @@
    ACAIS custom styles
    ========================================================================== */
 
+body {
+	position: relative; /* For scrollspy */
+}
 /* Top navigation */
 .navbar {
-	background-color: #8B0000;
+	background-color: #c0392b;
 }
 
-.navbar-default .navbar-brand {
+.navbar-inverse .navbar-brand {
 	color: #fff;
 }
-.navbar-default .navbar-brand:hover {
-
-	text-shadow:0px 1px 0 rgb(203,203,203), 0px 1px 0 rgb(189,189,189),0px 3px 3px rgba(0,0,0,0.6),0px 2px 1px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,.2);
-	color: #fff;
+.navbar-inverse .navbar-brand:hover {
+	color: black;
 }
 
 .navbar .navbar-nav li a {
 	color: #fff;
+}
+.navbar .navbar-nav li.active a {
+	background-color: #c0392b;
+	color: black;
+}
+.navbar .navbar-nav li a:hover {
+	color: black;
+}
+.navbar .navbar-nav li a.order-tickets {
+	background-color: #1ABC9C;
 }
 
 /* Home page lead */
@@ -31,7 +42,7 @@
 	-o-background-size:cover;
 	background-size:cover;
 	
-	border-bottom: 2px solid #8B0000;
+	border-bottom: 2px solid #c0392b;
 }
 
 .fronttitle{
@@ -39,11 +50,11 @@
 }
 
 .fronttitle .brand{
-	color:#8B0000;
+	color:#c0392b;
 	font-size:80px;
 	letter-spacing:10px;
     font-weight: bold;
-	text-shadow:0px 0px 0 rgb(245,245,245),0px 1px 0 rgb(236,236,236),0px 2px 0 rgb(226,226,226),0px 3px 0 rgb(216,216,216), 0px 4px 0 rgb(206,206,206),0px 5px 4px rgba(0,0,0,1),0px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+	text-shadow: 0px 2px 0px white;
 }
 
 .fronttitle .theme {
@@ -56,14 +67,79 @@
 .landing .lead {
 	color: #fff;
 }
-
+.title{
+    color: #8B0000;
+    font-size: 35px;
+}
 /* Homepage panels */
 
-.feature-panel {
-	border: 1px solid #e7e7e7;
-	border-width: 1px 2px 4px 1px;
-	margin-bottom: 40px;
+.tile-features .tile {
+
 }
-.feature-panel-image {
-	padding: 0;
+.tile-features .tile-image {
+	height: 150px;
+}
+
+.feature-overview-list .fa {
+	color: #8B0000;
+	padding-right: 15px;
+}
+.feature-overview-list li {
+	list-style-type: none;
+	font-size: 20px;
+}
+.feature-overview-list ul {
+	margin-left: -40px;
+}
+.feature-overview-list small {
+	font-size: 10px;
+}
+
+/* Keynote section */
+.keynote-image {
+	margin-top: 100px;
+}
+/* Programme table */
+
+.table-programme {
+	margin-top: 30px;
+}
+.table-programme td, th {
+	text-align: center;
+}
+.table-programme>tbody>tr>td {
+	height: 50px;
+	vertical-align:middle;
+}
+.table-programme td:first-child, th:first-child {
+	/* time column */
+	text-align: left;
+	vertical-align: top;
+}
+.table-programme .programme-keynote, .table-programme .programme-discussion {
+	height: 100px;
+}
+.table-programme .programme-parallel td{
+	height: 75px;
+}
+/* Committee overview */
+.committee-overview ul {
+	padding-left: 14px;
+}
+.committee-overview li {
+	font-size: 12px;
+}
+.committee-overview h3 {
+	font-size: 15px;
+}
+/* Footer */
+footer {
+	margin-top: 50px;
+}
+.footer-banner {
+	background-color: #c0392b;
+	color: #f5edec;
+}
+.footer-banner a {
+	color: #f5edec;
 }

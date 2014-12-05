@@ -32,6 +32,9 @@ body {
 .navbar .navbar-nav li a.order-tickets {
 	background-color: #1ABC9C;
 }
+.navbar-inverse .navbar-toggle:hover:before, .navbar-inverse .navbar-toggle:focus:before {
+	color: black;
+}
 
 /* Home page lead */
 
@@ -51,7 +54,7 @@ body {
 
 .fronttitle .brand{
 	color:#c0392b;
-	font-size:80px;
+	font-size: 80px;
 	letter-spacing:10px;
     font-weight: bold;
 	text-shadow: 0px 2px 0px white;
@@ -142,4 +145,32 @@ footer {
 }
 .footer-banner a {
 	color: #f5edec;
+}
+
+
+/* Media queries */
+@media (max-width: 767px) {
+	.fronttitle {
+		margin-top: 20px;	
+	}
+	.fronttitle .brand {
+		font-size: 40px;	
+	}
+	.fronttitle .theme {
+		font-size: 60px;	
+	}
+	.footer-banner {
+		margin: 0 -15px 0 -15px;	
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar-nav>li>a {
+		padding: 15px;
+	}
+}
+@media (min-width: 1200px) {
+
 }

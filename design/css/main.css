@@ -142,6 +142,7 @@ footer {
 .footer-banner {
 	background-color: #c0392b;
 	color: #f5edec;
+	margin-left: 0;
 }
 .footer-banner a {
 	color: #f5edec;

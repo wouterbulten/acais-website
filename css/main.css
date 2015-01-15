@@ -77,7 +77,14 @@ body {
 /* Homepage panels */
 
 .tile-features .tile {
-
+	height: 500px;
+}
+.tile-features .tile .btn {
+	position: absolute;
+	bottom: 10px;
+	width: inherit;
+	left: 14px;
+	right: 14px;
 }
 .tile-features .tile-image {
 	height: 150px;

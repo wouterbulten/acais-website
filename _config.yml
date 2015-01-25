@@ -1,11 +1,11 @@
 # Site settings
 title: ACAIS 2015
-email: your-email@domain.com
-description: > # Under construction
+email: symposium@svcognac.nl
+description: > #The 8th Annual CognAC Artificial Intelligence symposium, ACAIS, focusses on Healthcare. How does AI influence healthcare? How can AI improve the care that we receive?  
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://acais.nl" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+hide_venue: true

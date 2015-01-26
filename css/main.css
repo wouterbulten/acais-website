@@ -1,74 +1,86 @@
 
 
 /* ==========================================================================
-   ACAIS custom styles
-   ========================================================================== */
+ACAIS custom styles
+========================================================================== */
 
 body {
-	position: relative; /* For scrollspy */
+    position: relative; /* For scrollspy */
+}
+
+.card {
+    /* TODO: Fix this?
+    padding:1.5rem;
+    box-shadow:0 1px 2px #aaa;
+    background:white;
+    margin:0 1rem 1rem;
+    border-radius:3px;
+    user-select:none;
+    animation:fly-in-from-left .5s 1s ease both;
+    transform-origin:top left;*/
 }
 /* Top navigation */
 .navbar {
-	background-color: #c0392b;
+    background-color: #c0392b;
 }
 
 .navbar-inverse .navbar-brand {
-	color: #fff;
+    color: #fff;
 }
 .navbar-inverse .navbar-brand:hover {
-	color: black;
+    color: black;
 }
 
 .navbar .navbar-nav li a {
-	color: #fff;
+    color: #fff;
 }
 .navbar .navbar-nav li.active a {
-	background-color: #c0392b;
-	color: black;
+    background-color: #c0392b;
+    color: black;
 }
 .navbar .navbar-nav li a:hover {
-	color: black;
+    color: black;
 }
 .navbar .navbar-nav li a.order-tickets {
-	background-color: #1ABC9C;
+    background-color: #1ABC9C;
 }
 .navbar-inverse .navbar-toggle:hover:before, .navbar-inverse .navbar-toggle:focus:before {
-	color: black;
+    color: black;
 }
 
 /* Home page lead */
 
 .jumbotron.landing {
-	background: url("../img/bg-front-filter.jpg") no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-	
-	border-bottom: 2px solid #c0392b;
+    background: url("../img/bg-front-filter.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+
+    border-bottom: 2px solid #c0392b;
 }
 
 .fronttitle{
-	margin-top: 80px;
+    margin-top: 80px;
 }
 
 .fronttitle .brand{
-	color:#c0392b;
-	font-size: 80px;
-	letter-spacing:10px;
+    color:#c0392b;
+    font-size: 80px;
+    letter-spacing:10px;
     font-weight: bold;
-	text-shadow: 0px 2px 0px white;
+    text-shadow: 0px 2px 0px white;
 }
 
 .fronttitle .theme {
-	color: #fff;
-	text-shadow:0px 0px 0 rgb(231,231,231),0px 1px 0 rgb(217,217,217),0px 2px 0 rgb(203,203,203), 0px 3px 0 rgb(189,189,189),0px 4px 3px rgba(0,0,0,0.6),0px 4px 1px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,.2);
-	
-	font-size:80px;
+    color: #fff;
+    text-shadow:0px 0px 0 rgb(231,231,231),0px 1px 0 rgb(217,217,217),0px 2px 0 rgb(203,203,203), 0px 3px 0 rgb(189,189,189),0px 4px 3px rgba(0,0,0,0.6),0px 4px 1px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,.2);
+
+    font-size:80px;
 }
 
 .landing .lead {
-	color: #fff;
+    color: #fff;
 }
 .title{
     color: #8B0000;
@@ -77,107 +89,107 @@ body {
 /* Homepage panels */
 
 .tile-features .tile {
-	height: 500px;
+    height: 500px;
 }
 .tile-features .tile .btn {
-	position: absolute;
-	bottom: 10px;
-	width: inherit;
-	left: 14px;
-	right: 14px;
+    position: absolute;
+    bottom: 10px;
+    width: inherit;
+    left: 14px;
+    right: 14px;
 }
 .tile-features .tile-image {
-	height: 150px;
+    height: 150px;
 }
 
 .feature-overview-list .fa {
-	color: #8B0000;
-	padding-right: 15px;
+    color: #8B0000;
+    padding-right: 15px;
 }
 .feature-overview-list li {
-	list-style-type: none;
-	font-size: 20px;
+    list-style-type: none;
+    font-size: 20px;
 }
 .feature-overview-list ul {
-	margin-left: -40px;
+    margin-left: -40px;
 }
 .feature-overview-list small {
-	font-size: 10px;
+    font-size: 10px;
 }
 
 /* Keynote section */
 .keynote-image {
-	margin-top: 100px;
+    margin-top: 100px;
 }
 /* Programme table */
 
 .table-programme {
-	margin-top: 30px;
+    margin-top: 30px;
 }
 .table-programme td, th {
-	text-align: center;
+    text-align: center;
 }
 .table-programme>tbody>tr>td {
-	height: 50px;
-	vertical-align:middle;
+    height: 50px;
+    vertical-align:middle;
 }
 .table-programme td:first-child, th:first-child {
-	/* time column */
-	text-align: left;
-	vertical-align: top;
+    /* time column */
+    text-align: left;
+    vertical-align: top;
 }
 .table-programme .programme-keynote, .table-programme .programme-discussion {
-	height: 100px;
+    height: 100px;
 }
 .table-programme .programme-parallel td{
-	height: 75px;
+    height: 75px;
 }
 /* Committee overview */
 .committee-overview ul {
-	padding-left: 14px;
+    padding-left: 14px;
 }
 .committee-overview li {
-	font-size: 12px;
+    font-size: 12px;
 }
 .committee-overview h3 {
-	font-size: 15px;
+    font-size: 15px;
 }
 /* Footer */
 footer {
-	margin-top: 50px;
+    margin-top: 50px;
 }
 .footer-banner {
-	background-color: #c0392b;
-	color: #f5edec;
-	margin-left: 0;
+    background-color: #c0392b;
+    color: #f5edec;
+    margin-left: 0;
 }
 .footer-banner a {
-	color: #f5edec;
+    color: #f5edec;
 }
 
 
 /* Media queries */
 @media (max-width: 767px) {
-	.fronttitle {
-		margin-top: 20px;	
-	}
-	.fronttitle .brand {
-		font-size: 30px;	
-	}
-	.fronttitle .theme {
-		font-size: 60px;	
-	}
-	.footer-banner {
-		margin: 0 -15px 0 -15px;	
-	}
+    .fronttitle {
+        margin-top: 20px;	
+    }
+    .fronttitle .brand {
+        font-size: 30px;	
+    }
+    .fronttitle .theme {
+        font-size: 60px;	
+    }
+    .footer-banner {
+        margin: 0 -15px 0 -15px;	
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
 
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-	.navbar-nav>li>a {
-		padding: 15px;
-	}
+    .navbar-nav>li>a {
+        padding: 15px;
+    }
 }
 @media (min-width: 1200px) {
 

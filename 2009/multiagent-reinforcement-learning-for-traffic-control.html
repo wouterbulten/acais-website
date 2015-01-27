@@ -1,0 +1,7 @@
+---
+layout: speaker
+author: Shimon Whiteson
+subject: Multiagent reinforcement learning for traffic control
+---
+<p>Since traffic jams are ubiquitous in the modern world, optimizing the behavior of traffic lights for efficient traffic flow is a critically important goal. Though most current traffic lights use simple heuristic protocols, more efficient controllers can be discovered automatically via multiagent reinforcement learning, where each agent controls a single traffic light. However, in previous work on this approach, agents select only locally optimal actions without coordinating their behavior. In this talk, I discuss how we extend this approach to include explicit coordination between neighboring traffic lights. Coordination is achieved using the max-plus algorithm, which estimates the optimal joint action by sending locally optimized messages among connected agents.</p>  
+<p>I present the first application of max-plus to a large-scale problem, thus verifying its efficacy in realistic settings. I also provide empirical evidence that max-plus performs well on cyclic graphs, though it has been proven to converge only for tree-structured graphs. Furthermore, I’ll offer a new understanding of the properties a traffic network must have for such coordination to be beneficial and show that max-plus outperforms previous methods on networks that possess those properties.</p>

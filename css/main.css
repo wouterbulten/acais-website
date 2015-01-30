@@ -100,6 +100,11 @@ body {
 .tile-features .tile {
     height: 500px;
 }
+
+.tile-features .tile2 {
+    height: 610px;
+}
+
 .tile-features .tile .btn {
     position: absolute;
     bottom: 10px;

@@ -4,9 +4,16 @@
 ACAIS custom styles
 ========================================================================== */
 
+/*
+General styles
+*/
 body {
     position: relative; /* For scrollspy */
 }
+.container.page {
+	padding-top: 40px;
+}
+
 
 .card {
     /* TODO: Fix this?
@@ -19,7 +26,9 @@ body {
     animation:fly-in-from-left .5s 1s ease both;
     transform-origin:top left;*/
 }
+
 /* Top navigation */
+
 .navbar {
     background-color: #c0392b;
 }

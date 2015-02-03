@@ -9,3 +9,4 @@ url: "http://acais.nl" # the base hostname & protocol for your site
 markdown: kramdown
 
 hide_venue: true
+permalink: pretty

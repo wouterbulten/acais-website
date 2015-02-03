@@ -168,6 +168,12 @@ body {
 .committee-overview h3 {
     font-size: 15px;
 }
+
+/* Archive page */
+.archive .tile li:first-child {
+	margin-bottom: 10px;
+	font-style: italic;
+}
 /* Footer */
 footer {
     margin-top: 50px;

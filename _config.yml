@@ -1,5 +1,6 @@
 # Site settings
 title: ACAIS 2015
+
 email: symposium@svcognac.nl
 description: > #The 8th Annual CognAC Artificial Intelligence symposium, ACAIS, focusses on Healthcare. How does AI influence healthcare? How can AI improve the care that we receive?  
 baseurl: "" # the subpath of your site, e.g. /blog/

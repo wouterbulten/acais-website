@@ -11,3 +11,5 @@ markdown: kramdown
 
 hide_venue: true
 permalink: pretty
+
+exclude: [vendor] # for travis

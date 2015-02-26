@@ -9,7 +9,9 @@ url: "http://acais.nl" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
-hide_venue: true
+hide_venue: false
+hide_feature_overview: true
+
 permalink: pretty
 
 exclude: [vendor] # for travis

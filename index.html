@@ -31,7 +31,7 @@ layout: default
     </div>
 
     <hr>
-    {% if site.hide_venue == false %}
+    {% if site.hide_feature_overview == false %}
     <div class="row tile-features" id="overview">
 
         <div class="col-md-4">
@@ -64,9 +64,9 @@ layout: default
                 <img class="tile-image" src="img/pompe.jpg">
                 <h3 class="tile-title">Unique Location</h3>
 
-                <p>We are guests at the Pompeclinic mental health care (TBS) hospital. This clinic primarly focusses patients who are court-ordered into treatment.</p>
+                <p>We are guests at the Pompe Foundation which is a specialized Forensic Psychiatric Center. The Pompe Foundation offers forensic psychiatric care for TBS-patients in the clinic in Nijmegen.</p>
 
-                <p>Apart from visiting ACAIS 2015, you will have the unique chance to visit this hospital; one that is generally not accessible by the public.</p>
+                <p>Apart from visiting ACAIS 2015, you will have the unique chance to visit this clinic; one that is generally not accessible by the public.</p>
 
                 <a href="#pompeclinic" class="btn btn-primary btn-large btn-block">View venue</a>
             </div>
@@ -74,23 +74,29 @@ layout: default
     </div>
 
     <hr>
-
+    {% endif %}
+    {% if site.hide_venue == false %}
     <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
-            <h2 id="venue">Pompeclinic</h2>
+
+            <h2 id="venue"><small class="subheader">This year's location:</small><br> Forensic Psychiatric Center, The Pompe Foundation</h2>
         </div>
     </div>
 
     <div class="row">
         <div class="col-md-4">
             <img src="img/pompe.jpg" class="img-responsive">
+            <br>
+            <img src="img/pompe2.jpg" class="img-responsive">
         </div>
         <div class="col-md-8">
-            <p class="lead">We are guests at the Pompe clinic mental health care hospital ("TBS Kliniek").</p>
+            <p class="lead">We are guests at the Pompe Foundation which is a specialized Forensic Psychiatric Center. The Pompe Foundation offers forensic psychiatric care for TBS-patients in the clinic in Nijmegen.</p>
+
+                <p>Apart from visiting ACAIS 2015, you will have the unique chance to visit this clinic; one that is generally not accessible by the public.</p>
 
             <p><em><strong>Please note:</strong> The Pompe clinic is a closed facility with security comparable to a prison. This means that we are bound to their security rules. Please keep the following in mind:</em></p>
 
-            <ul style="list-style-type:none">
+            <ul style="list-style-type:none" class="regulations">
                 <li>
                     <span class="fa-stack fa-lg">
                         <i class="fa fa-camera fa-stack-1x"></i>
@@ -104,7 +110,24 @@ layout: default
                         <i class="fa fa-laptop fa-stack-1x"></i>
                         <i class="fa fa-ban fa-stack-2x text-danger"></i>
                     </span>
-                    No camera's, (mobile) phones or other electronic devices are allowed inside. It is forbidden to make pictures of the facilities. We kindly ask you to leave these at home or hand them in before entering. Need to be available during the day? Please let us know. 
+                    No camera's, (mobile) phones or other electronic devices are allowed inside the clinic. It is forbidden to make pictures of the facilities. We kindly ask you to leave (electronic) devices at home. Mobile phones can be handed in during registration and will be returned when leaving.
+                    <br>
+                    Need to be available during the day? We will have special emergency telephone numbers that are reachable the whole day.
+                </li>
+                <li>
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-fire fa-stack-1x"></i>
+                        <i class="fa fa-ban fa-stack-2x text-danger"></i>
+                    </span>
+                    It is not allowed to smoke within the facility. Only during breaks, attendees are allowed to smoke at places designated by the clinic's staff.
+                </li>
+
+                <li>
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-exclamation fa-stack-1x"></i>
+                        <i class="fa fa-circle-o fa-stack-2x text-danger"></i>
+                    </span>
+                    At all times, attendees must follow instructions issued by the organizing committee and the clinic's staff.
                 </li>
             </ul>
 

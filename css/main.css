@@ -14,7 +14,14 @@ body {
 	padding-top: 40px;
 }
 
+h2 {
+    margin-bottom: 30px;
+}
 
+h2 .subheader {
+    font-size: 60%;
+    color: #77899B;
+}
 .card {
     /* TODO: Fix this?
     padding:1.5rem;
@@ -167,6 +174,14 @@ body {
 }
 .committee-overview h3 {
     font-size: 15px;
+}
+
+/* Venue */
+.regulations {
+    font-size: 80%;
+}
+.regulations li {
+    padding-bottom: 10px;
 }
 
 /* Archive page */

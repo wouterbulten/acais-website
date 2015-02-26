@@ -7,7 +7,7 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 branches:
-	only:
-		- gh-pages
-		- design-implementation
-		- /^feature-.*$/
+  only:
+    - gh-pages
+    - design-implementation
+    - /^feature-.*$/

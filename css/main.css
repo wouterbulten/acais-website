@@ -11,7 +11,7 @@ body {
     position: relative; /* For scrollspy */
 }
 .container.page {
-	padding-top: 40px;
+    padding-top: 40px;
 }
 
 h2 {
@@ -32,6 +32,9 @@ h2 .subheader {
     user-select:none;
     animation:fly-in-from-left .5s 1s ease both;
     transform-origin:top left;*/
+}
+.content {
+    padding-top: 60px;
 }
 
 /* Top navigation */
@@ -109,7 +112,7 @@ h2 .subheader {
 }
 
 .tile-features .tile2 {
-    height: 610px;
+    height: 650px;
 }
 
 .tile-features .tile .btn {
@@ -186,8 +189,11 @@ h2 .subheader {
 
 /* Archive page */
 .archive .tile li:first-child {
-	margin-bottom: 10px;
-	font-style: italic;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.first-column {
+    padding: 10px;
 }
 /* Footer */
 footer {
@@ -219,7 +225,6 @@ footer {
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     .navbar-nav>li>a {

@@ -2,29 +2,40 @@
 layout: default
 ---
 <div class="page-content container">
-    <div class="wrapper speaker-table">
-        <br><br>
-        <h2 class="title"> {{ page.subject }} </h2>
-        <div class="col-md-8">
-            <table>
-                <tr>
-                    <td class="meh">
-                        <b>Name</b>:
-                    </td>
-                    <td>
-                        {{ page.author }}
-                    </td>
-                </tr>
-                <tr>
-                    <td valign="top" class="meh">
-                        <b>Abstract</b>:
-                    </td>
-                    <td>
-                        {{ page.content }}
-                    </td>
-                </tr>
-            </table>
+
+    <div class="speaker-table content">
+        <ol class="breadcrumb">
+            <li><a href="../../previous-editions">Overview</a></li>
+            <li><a href="../">{{ page.year }}</a></li>
+            <li class="active">{{ page.subject }}</li>
+        </ol>
+        <div class="speaker-table">
+            <h2 class="title"> {{ page.subject }} </h2>
+            <div class="col-md-8">
+                <table>
+                    <tr>
+                        <td class="first-column">
+                            <b>Name</b>:
+                        </td>
+                        <td>
+                            {{ page.author }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" class="first-column">
+                            <b>Abstract</b>:
+                        </td>
+                        <td>
+                            {{ page.content }}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="class-md-4">
+                {% if page.image-src != null %}
+                <img src="{{ page.image-src }}">
+                {% endif %}
+            </div>
         </div>
-        <div class="class-md-4">&nbsp;</div>
     </div>
 </div>

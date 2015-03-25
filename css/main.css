@@ -180,11 +180,14 @@ h2 .subheader {
 }
 
 /* Venue */
-.regulations {
+.regulation p {
     font-size: 80%;
 }
-.regulations li {
-    padding-bottom: 10px;
+.regulation {
+    margin-bottom: 15px;
+}
+.regulation .icons {
+    text-align: right;
 }
 
 /* Archive page */

@@ -22,6 +22,11 @@ h2 .subheader {
     font-size: 60%;
     color: #77899B;
 }
+
+h3 .subheader {
+    font-size: 60%;
+    color: #77899B;
+}
 .card {
     /* TODO: Fix this?
     padding:1.5rem;
@@ -144,6 +149,9 @@ h2 .subheader {
 /* Keynote section */
 .keynote-image {
     margin-top: 100px;
+}
+.keynote-photo {
+    width: 40%;
 }
 /* Programme table */
 

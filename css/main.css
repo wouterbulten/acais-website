@@ -153,6 +153,12 @@ h3 .subheader {
 .keynote-photo {
     width: 40%;
 }
+.speaker-photo {
+    height: 250px;
+}
+.invited-talks h3 {
+    font-size: 25px ;
+}
 /* Programme table */
 
 .table-programme {

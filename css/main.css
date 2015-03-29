@@ -159,6 +159,18 @@ h3 .subheader {
 .invited-talks h3 {
     font-size: 25px ;
 }
+.invited-talks h3 small {
+    color: #;
+    font-size: 15px;
+}
+.invited-talks p:before {
+    content: "Title: ";
+    color: #929599;
+}
+.invited-talks p {
+    font-style: italic;
+    font-size: 15px;
+}
 /* Programme table */
 
 .table-programme {

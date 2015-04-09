@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div class="page-content container">
+
+    <div class="speaker-table content">
+        <ol class="breadcrumb">
+            <li><a href="../">{{ page.year }}</a></li>
+            <li class="active">{{ page.subject }}</li>
+        </ol>
+        <div class="speaker-table">
+            <h2 class="title"> {{ page.subject }} </h2>
+            
+            <div class="row">
+                <div class="col-md-8">
+                    <table>
+                        <tr>
+                            <td class="first-column">
+                                <b>Name</b>:
+                            </td>
+                            <td>
+                                {{ page.author }}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" class="first-column">
+                                <b>Abstract</b>:
+                            </td>
+                            <td>
+                                {{ page.content }}
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="class-md-4">
+                    {% if page.image-src != null %}
+                    <img class="img-responsive" src="{{ page.image-src }}" alt="Picture of the speaker">
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

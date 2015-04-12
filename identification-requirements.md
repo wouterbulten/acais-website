@@ -22,7 +22,7 @@ permalink: /identification-requirements/
 		
 		<p>If you prefer to send us your identity document number (through e-mail) please select this option during the regisration of your ticket. Your identity document number can be sent to <a href="mailto:acais@ru.nl">acais@ru.nl</a>. This e-mail adres is an e-mail adres hosted by the Radboud University and is not linked to any other services (e.g. GMail).</p>
 		
-		<p>More information about visiting the Pompe clinic can be found at the <a href="http://www.pompestichting.nl/site/Bezoekers/Pati%ebnten%20bezoeken/">website</a> (in Dutch).
+		<p>More information about visiting the Pompe clinic can be found at the <a href="http://www.pompestichting.nl/site/Bezoekers/Medewerkers%20bezoeken/">website</a> (in Dutch).
 		</p>
 	</div>
 </div>

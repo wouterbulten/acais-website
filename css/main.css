@@ -22,6 +22,11 @@ h2 .subheader {
     font-size: 60%;
     color: #77899B;
 }
+
+h3 .subheader {
+    font-size: 60%;
+    color: #77899B;
+}
 .card {
     /* TODO: Fix this?
     padding:1.5rem;
@@ -145,6 +150,27 @@ h2 .subheader {
 .keynote-image {
     margin-top: 100px;
 }
+.keynote-photo {
+    width: 40%;
+}
+.speaker-photo {
+    height: 250px;
+}
+.invited-talks h3 {
+    font-size: 25px ;
+}
+.invited-talks h3 small {
+    color: darkgrey;
+    font-size: 15px;
+}
+.invited-talks p:before {
+    content: "Title: ";
+    color: #929599;
+}
+.invited-talks p {
+    font-style: italic;
+    font-size: 15px;
+}
 /* Programme table */
 
 .table-programme {
@@ -180,11 +206,14 @@ h2 .subheader {
 }
 
 /* Venue */
-.regulations {
+.regulation p {
     font-size: 80%;
 }
-.regulations li {
-    padding-bottom: 10px;
+.regulation {
+    margin-bottom: 15px;
+}
+.regulation .icons {
+    text-align: right;
 }
 
 /* Archive page */

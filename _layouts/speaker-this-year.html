@@ -23,6 +23,14 @@ layout: default
                             </td>
                         </tr>
                         <tr>
+                            <td class="first-column">
+                                <b>Organisation</b>:
+                            </td>
+                            <td>
+                                {{ page.organisation }}
+                            </td>
+                        </tr>
+                        <tr>
                             <td valign="top" class="first-column">
                                 <b>Abstract</b>:
                             </td>
@@ -34,7 +42,7 @@ layout: default
                 </div>
                 <div class="class-md-4">
                     {% if page.image-src != null %}
-                    <img class="img-responsive" src="{{ page.image-src }}" alt="Picture of the speaker">
+                    <img class="img-responsive" src="{{ page.image-src }}" alt="Picture of the speaker" style="max-width: 300px; max-height: 300px">
                     {% endif %}
                 </div>
             </div>

@@ -1,448 +1,602 @@
 ---
 layout: default
 ---
-
+{% if site.TBA_modus == false %}
 <div class="jumbotron landing" id="home">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <h1 class="fronttitle"><span class="brand">ACAIS 2015:</span><br/> <span class="theme">AI in Health</span></h1>
-                <p class="lead">With an increasing demand, a requirement for efficiency and low costs and a strive for personally tailored care there is a lot of focus on improving healthcare.</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h1 class="fronttitle"><span class="brand">ACAIS 2015:</span><br/> <span class="theme">AI in Health</span></h1>
+        <p class="lead">With an increasing demand, a requirement for efficiency and low costs and a strive for personally tailored care there is a lot of focus on improving healthcare.</p>
 
-                <p class="lead">Smart hospitals, live tracking of patients, serious gaming as treatment for mental disorders: all applications of <em>AI in Health</em>. However, drawbacks such as a decrease in privacy should not be taken lightly. How can we achieve optimal care?</p>
+        <p class="lead">Smart hospitals, live tracking of patients, serious gaming as treatment for mental disorders: all applications of <em>AI in Health</em>. However, drawbacks such as a decrease in privacy should not be taken lightly. How can we achieve optimal care?</p>
 
-                <p class="lead"><strong>Join us on the 20th of May and find out!</strong>
-                </p>
+        <p class="lead"><strong>Join us on the 20th of May and find out!</strong>
+        </p>
 
-                <p>
-                    <a href="#order-tickets" class="btn btn-primary btn-lg" role="button"><i class="fa fa-ticket fa-lg fa-fw"></i> Order tickets</a>
-                </p>
-            </div>
-        </div>
+        <p>
+          <a href="#order-tickets" class="btn btn-primary btn-lg" role="button"><i class="fa fa-ticket fa-lg fa-fw"></i> Order tickets</a>
+        </p>
+      </div>
     </div>
+  </div>
 </div>
 
 <div class="container">
-    <div class="row text-center">
+  <div class="row text-center">
 
-        <h2 class="title">Fusing AI &amp; Healthcare in a single day,<br> full of talks and discussions</h2>
+    <h2 class="title">Fusing AI &amp; Healthcare in a single day,<br> full of talks and discussions</h2>
 
-        <p class="lead">ACAIS 2015 takes place on the 20th of May in Nijmegen,<br> from 9:00 till 17:00 with an optional dinner till 21:00.</p>
+    <p class="lead">ACAIS 2015 takes place on the 20th of May in Nijmegen,<br> from 9:00 till 17:00 with an optional dinner till 21:00.</p>
+  </div>
+
+  <hr>
+  {% if site.hide_feature_overview == false %}
+  <div class="row tile-features" id="overview">
+
+    <div class="col-md-4">
+      <div class="tile">
+
+        <img class="tile-image" src="img/what-to-expect.jpg" alt="What to expect">
+        <h3 class="tile-title">Keynotes</h3>
+        <br>
+        <p>ACAIS 2015 will consist of two keynotes, each highlighting a topic within <em>AI in Health</em>.</p>
+
+        <a href="#keynotes" class="btn btn-primary btn-large btn-block">View keynotes</a>
+      </div>
     </div>
 
-    <hr>
-    {% if site.hide_feature_overview == false %}
-    <div class="row tile-features" id="overview">
+    <div class="col-md-4">
+      <div class="tile">
 
-        <div class="col-md-4">
-            <div class="tile">
+        <img class="tile-image" src="img/presentation.jpg" alt="Presentation">
+        <h3 class="tile-title">Two seperate tracks</h3>
+        <br>
+        <p>Besides the keynotes you will have enough options to customise your programme! We will organise two seperate tracks spread out over multiple topics.</p>
 
-                <img class="tile-image" src="img/what-to-expect.jpg" alt="What to expect">
-                <h3 class="tile-title">Keynotes</h3>
-                <br>
-                <p>ACAIS 2015 will consist of two keynotes, each highlighting a topic within <em>AI in Health</em>.</p>
-
-                <a href="#keynotes" class="btn btn-primary btn-large btn-block">View keynotes</a>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="tile">
-
-                <img class="tile-image" src="img/presentation.jpg" alt="Presentation">
-                <h3 class="tile-title">Two seperate tracks</h3>
-                <br>
-                <p>Besides the keynotes you will have enough options to customise your programme! We will organise two seperate tracks spread out over multiple topics.</p>
-
-                <a href="#invited-talks" class="btn btn-primary btn-large btn-block">View invited talks</a>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="tile">
-
-                <img class="tile-image" src="img/pompe.jpg" alt="Pompe clinic">
-                <h3 class="tile-title">Unique Location</h3>
-                <br>
-                <p>We are guests at the Pompe Foundation which is a specialized Forensic Psychiatric Center. The Pompe Foundation offers forensic psychiatric care for TBS-patients in the clinic in Nijmegen.</p>
-
-                <a href="#venue" class="btn btn-primary btn-large btn-block">View venue</a>
-            </div>
-        </div>
+        <a href="#invited-talks" class="btn btn-primary btn-large btn-block">View invited talks</a>
+      </div>
     </div>
 
-    <hr>
+    <div class="col-md-4">
+      <div class="tile">
 
-    <div class="row" id="keynotes">
-        <div class="col-md-12 text-center">
-            <h2>Keynotes</h2>
-        </div>
+        <img class="tile-image" src="img/pompe.jpg" alt="Pompe clinic">
+        <h3 class="tile-title">Unique Location</h3>
+        <br>
+        <p>We are guests at the Pompe Foundation which is a specialized Forensic Psychiatric Center. The Pompe Foundation offers forensic psychiatric care for TBS-patients in the clinic in Nijmegen.</p>
+
+        <a href="#venue" class="btn btn-primary btn-large btn-block">View venue</a>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="row" id="keynotes">
+    <div class="col-md-12 text-center">
+      <h2>Keynotes</h2>
+    </div>
+  </div>
+
+  <div class="row text-center">
+
+    <div class="col-md-6">
+      <a href="/2015/computer-aided-diagnosis">
+        <img src="img/speakers/nicokarssemeijer.jpeg" alt="Nico Karssemeijer" class="keynote-photo">
+        <h3>
+          Nico Karssemeijer
+          <br>
+          <small class="subheader">Diagnostic Image Analysis Group &amp; Institute for Computing and Information Sciences, Radboudumc</small>
+        </h3>
+        <p class="talk-title">Computer Aided Diagnosis</p>
+      </a>
     </div>
 
-    <div class="row text-center">
+    <div class="col-md-6"> 
+      <a href="/2015/the-future-of-parkinson-care">
+        <img src="img/speakers/basbloem.jpg" alt="Bas Bloem" class="keynote-photo">
+        <h3>
+          Bas Bloem
+          <br>
+          <small class="subheader">Parkinson Center Nijmegen (ParC)</small>
+        </h3>
+        <p class="talk-title"><small>The future of (Parkinson) care</small></p>
+      </a>
+    </div>
+  </div>
 
-        <div class="col-md-6">
+  <hr>
+
+  <div class="row" id="invited-talks">
+    <div class="col-md-12 text-center">
+      <h2>Invited talks</h2>
+      <p class="lead">Currently confirmed programme below. See the <a href="/2015">Timetable</a> for the full programme!</p>
+    </div>
+  </div>
+
+  <div class="row text-center invited-talks">
+
+    <div class="col-md-3">
+      <a href="/2015/navigating-flexible-endoscopes">
+        <img src="img/speakers/nandavanderstap.png" alt="Nanda van der Stap" class="speaker-photo">
+        <h3>
+          Nanda van der Stap
+          <br>
+          <small>Robotics and Mechatronics, MIRA institute for Biomedical Technology and Technical Medicine, Twente University</small>
+        </h3>
+        <p class="talk-title">Navigating Flexible Endoscopes</p>
+      </a>
+    </div>
+
+    <div class="col-md-3">
+      <a href="/2015/virtual-reality-therapy">
+        <img src="img/speakers/willempaulbrinkman.jpg" alt="Willem-Paul Brinkman" class="speaker-photo">
+        <h3>
+          Willem-Paul Brinkman
+          <br>
+          <small>Interactive Intelligence group &amp; Delft Mental Health Computing Lab, Delft University of Technology</small>
+        </h3>
+        <p class="talk-title">Virtual reality therapy and virtual health agents</p>
+      </a>
+    </div>
+
+    <div class="col-md-3">
+      <a href="/2015/neurofeedback-games-for-children">
+        <img src="img/speakers/isabelagranic.jpg" alt="Isabela Granic" class="speaker-photo">
+        <h3>
+          Isabela Granic
+          <br>
+          <small>Developmental Psychopathology department, Behavioural Science Institute, Radboud University</small>
+        </h3>
+        <p class="talk-title">The development and evaluation of neurofeedback games built for children’s emotional health and well-being</p>
+      </a>
+    </div>
+  </div>
+
+  <div class="row text-center invited-talks">
+    <div class="col-md-3">
+      <a href="/2015/decoding-functional-information">
+        <img src="img/speakers/rainergoebel.jpg" alt="Rainer Goebel" class="speaker-photo">
+        <h3>
+          Rainer Goebel
+          <br>
+          <small>Psychology and Neuroscience, Maastricht Brain Imaging Centre, Maastricht University</small>
+        </h3>
+        <p class="talk-title">Decoding functional information at macroscopic and mesoscopic scales in the human brain: From basic research to clinical applications</p>
+      </a>
+    </div>
+
+    <div class="col-md-3">
+      <a href="/2015/privacy-and-security/">
+        <img src="img/speakers/bartvandenbogaard.jpg" alt="Bart van den Bogaard" class="speaker-photo">
+        <h3>
+          Bart van den Bogaard
+          <br>
+          <small>Topicus</small>
+        </h3>
+        <p class="talk-title">Internet of things: privacy & security in a connected world</p>
+      </a>
+    </div>
+
+    <div class="col-md-3">
+      <a href="/2015/intelligence-in-human-interactions/">
+        <img src="img/speakers/albertvlug.jpg" alt="Albert Vlug" class="speaker-photo">
+        <h3>
+          Albert Vlug
+          <br>
+          <small>CGI</small>
+        </h3>
+        <p class="talk-title">A conscious design of intelligence in machine-mediated human interactions</p>
+      </a>
+    </div>
+
+    <div class="col-md-3">
+      <img src="img/speakers/pim-haselager.jpg" alt="Pim Haselager" class="speaker-photo">
+
+      <h3>
+        Pim Haselager
+        <br>
+        <small>Donders Institute for Brain, Cognition and Behaviour</small>
+      </h3>
+
+
+    </div>
+  </div>
+
+  <div class="col-md-8 col-md-offset-2">
+    <table class="table table-hover table-bordered">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Track 1</th>
+          <th>Track 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>9:00</td>
+          <td class="text-center" colspan="2"><b>Registration</b> &amp; coffee/tea</td>
+        </tr>
+        <tr>
+          <td>10:00</td>
+          <td class="text-center" colspan="2"><b>Opening</b></td>
+        </tr>
+        <tr>
+          <td>10:30</td>
+          <td class="text-center" colspan="2">
             <a href="/2015/computer-aided-diagnosis">
-                <img src="img/speakers/nicokarssemeijer.jpeg" alt="Nico Karssemeijer" class="keynote-photo">
-                <h3>
-                    Nico Karssemeijer
-                    <br>
-                    <small class="subheader">Diagnostic Image Analysis Group &amp; Institute for Computing and Information Sciences, Radboudumc</small>
-                </h3>
-                <p class="talk-title">Computer Aided Diagnosis</p>
+              <b>Computer Aided Diagnosis</b>
+              <br>
+              Nico Karssemeijer
             </a>
-        </div>
-
-        <div class="col-md-6"> 
-            <a href="/2015/the-future-of-parkinson-care">
-                <img src="img/speakers/basbloem.jpg" alt="Bas Bloem" class="keynote-photo">
-                <h3>
-                    Bas Bloem
-                    <br>
-                    <small class="subheader">Parkinson Center Nijmegen (ParC)</small>
-                </h3>
-                <p class="talk-title"><small>The future of (Parkinson) care</small></p>
-            </a>
-        </div>
-    </div>
-
-    <hr>
-
-    <div class="row" id="invited-talks">
-        <div class="col-md-12 text-center">
-            <h2>Invited talks</h2>
-            <p class="lead">Currently confirmed programme below. See the <a href="/2015">Timetable</a> for the full programme!</p>
-        </div>
-    </div>
-
-    <div class="row text-center invited-talks">
-
-        <div class="col-md-3">
-            <a href="/2015/navigating-flexible-endoscopes">
-                <img src="img/speakers/nandavanderstap.png" alt="Nanda van der Stap" class="speaker-photo">
-                <h3>
-                    Nanda van der Stap
-                    <br>
-                    <small>Robotics and Mechatronics, MIRA institute for Biomedical Technology and Technical Medicine, Twente University</small>
-                </h3>
-                <p class="talk-title">Navigating Flexible Endoscopes</p>
-            </a>
-        </div>
-
-        <div class="col-md-3">
-            <a href="/2015/virtual-reality-therapy">
-                <img src="img/speakers/willempaulbrinkman.jpg" alt="Willem-Paul Brinkman" class="speaker-photo">
-                <h3>
-                    Willem-Paul Brinkman
-                    <br>
-                    <small>Interactive Intelligence group &amp; Delft Mental Health Computing Lab, Delft University of Technology</small>
-                </h3>
-                <p class="talk-title">Virtual reality therapy and virtual health agents</p>
-            </a>
-        </div>
-
-        <div class="col-md-3">
-            <a href="/2015/neurofeedback-games-for-children">
-                <img src="img/speakers/isabelagranic.jpg" alt="Isabela Granic" class="speaker-photo">
-                <h3>
-                    Isabela Granic
-                    <br>
-                    <small>Developmental Psychopathology department, Behavioural Science Institute, Radboud University</small>
-                </h3>
-                <p class="talk-title">The development and evaluation of neurofeedback games built for children’s emotional health and well-being</p>
-            </a>
-        </div>
-    </div>
-
-    <div class="row text-center invited-talks">
-        <div class="col-md-3">
-            <a href="/2015/decoding-functional-information">
-                <img src="img/speakers/rainergoebel.jpg" alt="Rainer Goebel" class="speaker-photo">
-                <h3>
-                    Rainer Goebel
-                    <br>
-                    <small>Psychology and Neuroscience, Maastricht Brain Imaging Centre, Maastricht University</small>
-                </h3>
-                <p class="talk-title">Decoding functional information at macroscopic and mesoscopic scales in the human brain: From basic research to clinical applications</p>
-            </a>
-        </div>
-
-        <div class="col-md-3">
-            <a href="/2015/privacy-and-security/">
-                <img src="img/speakers/bartvandenbogaard.jpg" alt="Bart van den Bogaard" class="speaker-photo">
-                <h3>
-                    Bart van den Bogaard
-                    <br>
-                    <small>Topicus</small>
-                </h3>
-                <p class="talk-title">Internet of things: privacy & security in a connected world</p>
-            </a>
-        </div>
-        
-        <div class="col-md-3">
-            <a href="/2015/intelligence-in-human-interactions/">
-                <img src="img/speakers/albertvlug.jpg" alt="Albert Vlug" class="speaker-photo">
-                <h3>
-                    Albert Vlug
-                    <br>
-                    <small>CGI</small>
-                </h3>
-                <p class="talk-title">A conscious design of intelligence in machine-mediated human interactions</p>
-            </a>
-        </div>
-        
-        <div class="col-md-3">
-            <img src="img/speakers/pim-haselager.jpg" alt="Pim Haselager" class="speaker-photo">
-
-            <h3>
-                Pim Haselager
-                <br>
-                <small>Donders Institute for Brain, Cognition and Behaviour</small>
-            </h3>
-
-
-        </div>
-    </div>
-
-    <hr>
-    {% endif %}
-    {% if site.hide_venue == false %}
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1 text-center">
-
-            <h2 id="venue"><small class="subheader">This year's location:</small><br> Forensic Psychiatric Center,<br> The Pompe Foundation</h2>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <img src="img/pompe.jpg" class="img-responsive"  alt="Pompe clinic">
+          </td>
+        </tr>
+        <tr>
+          <td>11:15</td>
+          <td class="text-center" colspan="2"><b>Coffee/Tea break</b></td>
+        </tr>
+        <tr>
+          <td>11:30</td>
+          <td class="text-center">
+            <!--<a href="/2015/computer-aided-diagnosis">-->
+            <b>Helping Parkinson Patients with Google Glass</b>
             <br>
-            <img src="img/pompe2.jpg" class="img-responsive"  alt="Pompe clinic">
-        </div>
-        <div class="col-md-8">
-            <p class="lead">We are guests at the Pompe Foundation which is a specialized Forensic Psychiatric Center. The Pompe Foundation offers forensic psychiatric care for TBS-patients in the clinic in Nijmegen.</p>
-
-            <p>Apart from visiting ACAIS 2015, you will have the unique opportunity to visit this clinic; one that is generally not accessible to the public.</p>
-
-            <p><em><strong>Please note:</strong> The Pompe clinic is a closed facility with security comparable to a prison. This means that we are bound to their security rules. Please keep the following in mind:</em></p>
-
-            <div class="row regulation">
-                <div class="col-md-2 icons">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-camera fa-stack-1x"></i>
-                        <i class="fa fa-ban fa-stack-2x text-danger"></i>
-                    </span>
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-mobile fa-stack-1x"></i>
-                        <i class="fa fa-ban fa-stack-2x text-danger"></i>
-                    </span>
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-laptop fa-stack-1x"></i>
-                        <i class="fa fa-ban fa-stack-2x text-danger"></i>
-                    </span>
-                </div>
-                <div class="col-md-10">
-                    <p>No cameras, mobile phones or other electronic devices are allowed inside the clinic. It is forbidden to take pictures of the facilities. Mobile phones can be handed in during registration and will be returned when leaving. We kindly ask you to leave these devices at home if possible.</p>
-
-
-                    <p>Need to be available during the day? We will have special emergency telephone numbers that are reachable the whole day.</p>
-                </div>
-            </div>
-            <div class="row regulation">
-                <div class="col-md-2 icons">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-fire fa-stack-1x"></i>
-                        <i class="fa fa-ban fa-stack-2x text-danger"></i>
-                    </span>
-                </div>
-                <div class="col-md-10">
-                    <p>It is not allowed to smoke within the facility. Only during breaks, attendees are allowed to smoke at places designated by the clinic's staff.</p>
-                </div>
-            </div>
-            <div class="row regulation">
-                <div class="col-md-2 icons">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-exclamation fa-stack-1x"></i>
-                        <i class="fa fa-circle-o fa-stack-2x text-danger"></i>
-                    </span>
-                </div>
-                <div class="col-md-10">
-                    <p>At all times, attendees must follow instructions issued by the organizing committee and the clinic's staff.</p>
-                </div>
-            </div>
-
-            <p><em>All attendees must pass security (including metal detectors), comparable to an airport, before entering the facility. Rest assured, you will receive all necessary information after your registration.</em></p>
-        </div>
-    </div>
-
-    <hr>
-    {% endif %}
-    <div class="row text-center">
-
-        <h2 id="order-tickets">Order tickets</h2>
-    </div>
-
-    <div class="row text-center">
-
-        <div class="col-md-8 col-md-offset-2">
-
-            <p>Tickets are sold through Eventbrite and can be payed using iDeal or creditcard. Registration closses May 17th 11:59 PM.</p>
-
-            <div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.com/tickets-external?eid=6178805975&ref=etckt" frameborder="0" height="750" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Sell Tickets Online</a> <span style="color:#ddd;">through</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
-        </div>
-    </div>
-
-    <hr>
-
-    <div class="row text-center">
-
-        <h2 id="sponsors">Sponsors</h2>
-
-        <div class="row text-center">
-            <div class="col-md-4 img-responsive">
-                <a href="http://svcognac.nl/">
-                    <img height="175px" width="175px" src="/img/2015/cognac.png" alt="CognAC">
-                </a>
-            </div>
-            <div class="col-md-4 img-responsive">
-                <a href="http://ii.tudelft.nl/bnvki/">
-                    <img src="/img/2015/sponsor.png" alt="BNVKI">
-                </a>
-            </div>
-            <div class="col-md-4 img-responsive">
-                <a href="http://ru.nl">
-                    <img src="/img/2015/ru.png" alt="Radboud University">
-                </a>
-            </div>
-        </div>
-        <div class="row text-center">
-            <div class="col-md-6 img-responsive">
-                <a href="http://www.topicus.nl/">
-                    <img src="/img/2015/topicus.png" alt="Topicus">
-                </a>
-            </div>
-          <div class="col-md-6 img-responsive">
-            <a href="http://www.ru.nl/snuf/">
-              <img src="/img/2015/logosnufkleurgroot.jpg" alt="SNUF">
+            Richard van Wezel
+            <!--</a>-->
+          </td>
+          <td class="text-center">
+            <a href="/2015/privacy-and-security/">
+              <b>Privacy & Security</b>
+              <br>
+              Bart van den Bogaard, Topicus
             </a>
-          </div>
-        </div>
+          </td>
+        </tr>
+        <tr>
+          <td>12:15</td>
+          <td class="text-center">
+            <a href="/2015/talk-by-pompe-clinic/">
+              Talk provided by
+              <br>
+              the Pompe Clinic
+            </a>
+          </td>
+          <td class="text-center">
+            <a href="/2015/intelligence-in-human-interactions">
+              <b>Intelligence In Human Interactions</b>
+              <br>
+              Albert Vlug
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>13:00</td>
+          <td class="text-center" colspan="2"><b>Lunch</b></td>
+        </tr>
+        <tr>
+          <td>13:45</td>
+          <td class="text-center">
+            <a href="/2015/decoding-functional-information">
+              <b>BCI</b>
+              <br>
+              Rainer Goebel
+            </a>
+          </td>
+          <td class="text-center">
+            <a href="/2015/neurofeedback-games-for-children">
+              <b>Neurofeedback Games</b>
+              <br>
+              Isabela Granic
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>14:30</td>
+          <td class="text-center">
+            <a href="/2015/navigating-flexible-endoscopes">
+              <b>Navigating Flexible Endoscopes</b>
+              <br>
+              Nanda van der Stap</td>
+      </a>
+        <td class="text-center">
+          <a href="/2015/virtual-reality-therapy">
+            <b>Virtual Reality Therapy</b>
+            <br>
+            Willem-Paul Brinkman</td>
+      </a>
+      </tr>
+    <tr>
+      <td>15:10</td>
+      <td class="text-center" colspan="2"><b>Coffee/Tea break</b></td>
+    </tr>
+    <tr>
+      <td>15:30</td>
+      <td class="text-center" colspan="2">
+        <a href="/2015/the-future-of-parkinson-care">
+          <b>The future of (Parkinson) care</b>
+          <br>
+          Bas Bloem
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>16:15</td>
+      <td class="text-center" colspan="2">
+        <b>Discussion</b>
+        <br>
+        Pim Haselager</td>
+    </tr>
+    <tr>
+      <td>17:00</td>
+      <td class="text-center" colspan="2"><b>Drinks</b></td>
+    </tr>
+    <tr>
+      <td>18:00-21:00</td>
+      <td class="text-center" colspan="2"><b>Optional dinner</b></td>
+    </tr>
+
+    </tbody>
+  </table>
+</div>
+
+<hr>
+{% endif %}
+{% if site.hide_venue == false %}
+<div class="row">
+  <div class="col-md-10 col-md-offset-1 text-center">
+
+    <h2 id="venue"><small class="subheader">This year's location:</small><br> Forensic Psychiatric Center,<br> The Pompe Foundation</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    <img src="img/pompe.jpg" class="img-responsive"  alt="Pompe clinic">
+    <br>
+    <img src="img/pompe2.jpg" class="img-responsive"  alt="Pompe clinic">
+  </div>
+  <div class="col-md-8">
+    <p class="lead">We are guests at the Pompe Foundation which is a specialized Forensic Psychiatric Center. The Pompe Foundation offers forensic psychiatric care for TBS-patients in the clinic in Nijmegen.</p>
+
+    <p>Apart from visiting ACAIS 2015, you will have the unique opportunity to visit this clinic; one that is generally not accessible to the public.</p>
+
+    <p><em><strong>Please note:</strong> The Pompe clinic is a closed facility with security comparable to a prison. This means that we are bound to their security rules. Please keep the following in mind:</em></p>
+
+    <div class="row regulation">
+      <div class="col-md-2 icons">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-camera fa-stack-1x"></i>
+          <i class="fa fa-ban fa-stack-2x text-danger"></i>
+        </span>
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-mobile fa-stack-1x"></i>
+          <i class="fa fa-ban fa-stack-2x text-danger"></i>
+        </span>
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-laptop fa-stack-1x"></i>
+          <i class="fa fa-ban fa-stack-2x text-danger"></i>
+        </span>
+      </div>
+      <div class="col-md-10">
+        <p>No cameras, mobile phones or other electronic devices are allowed inside the clinic. It is forbidden to take pictures of the facilities. Mobile phones can be handed in during registration and will be returned when leaving. We kindly ask you to leave these devices at home if possible.</p>
+
+
+        <p>Need to be available during the day? We will have special emergency telephone numbers that are reachable the whole day.</p>
+      </div>
     </div>
+    <div class="row regulation">
+      <div class="col-md-2 icons">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-fire fa-stack-1x"></i>
+          <i class="fa fa-ban fa-stack-2x text-danger"></i>
+        </span>
+      </div>
+      <div class="col-md-10">
+        <p>It is not allowed to smoke within the facility. Only during breaks, attendees are allowed to smoke at places designated by the clinic's staff.</p>
+      </div>
+    </div>
+    <div class="row regulation">
+      <div class="col-md-2 icons">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-exclamation fa-stack-1x"></i>
+          <i class="fa fa-circle-o fa-stack-2x text-danger"></i>
+        </span>
+      </div>
+      <div class="col-md-10">
+        <p>At all times, attendees must follow instructions issued by the organizing committee and the clinic's staff.</p>
+      </div>
+    </div>
+
+    <p><em>All attendees must pass security (including metal detectors), comparable to an airport, before entering the facility. Rest assured, you will receive all necessary information after your registration.</em></p>
+  </div>
+</div>
+
+<hr>
+{% endif %}
+<div class="row text-center">
+
+  <h2 id="order-tickets">Order tickets</h2>
+</div>
+
+<div class="row text-center">
+
+  <div class="col-md-8 col-md-offset-2">
+
+    <p>Tickets are sold through Eventbrite and can be payed using iDeal or creditcard. Registration closses May 17th 11:59 PM.</p>
+
+    <div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.com/tickets-external?eid=6178805975&ref=etckt" frameborder="0" height="750" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Sell Tickets Online</a> <span style="color:#ddd;">through</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+  </div>
+</div>
+
+<hr>
+
+<div class="row text-center">
+
+  <h2 id="sponsors">Sponsors</h2>
+
+  <div class="row text-center">
+    <div class="col-md-4 img-responsive">
+      <a href="http://svcognac.nl/">
+        <img height="175px" width="175px" src="/img/2015/cognac.png" alt="CognAC">
+      </a>
+    </div>
+    <div class="col-md-4 img-responsive">
+      <a href="http://ii.tudelft.nl/bnvki/">
+        <img src="/img/2015/sponsor.png" alt="BNVKI">
+      </a>
+    </div>
+    <div class="col-md-4 img-responsive">
+      <a href="http://ru.nl">
+        <img src="/img/2015/ru.png" alt="Radboud University">
+      </a>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-6 img-responsive">
+      <a href="http://www.topicus.nl/">
+        <img src="/img/2015/topicus.png" alt="Topicus">
+      </a>
+    </div>
+    <div class="col-md-6 img-responsive">
+      <a href="http://www.ru.nl/snuf/">
+        <img src="/img/2015/logosnufkleurgroot.jpg" alt="SNUF">
+      </a>
+    </div>
+  </div>
+</div>
 
 <hr>
 
 <div class="row">
 
-    <div class="col-md-10 col-md-offset-1 text-center">
-        <h2 id="who-are-we">Who are we?</h2>
+  <div class="col-md-10 col-md-offset-1 text-center">
+    <h2 id="who-are-we">Who are we?</h2>
 
-        <p>ACAIS is an annual symposium organised by a team of students, all studying Artificial Intelligence at the <a href="http://www.ru.nl">Radboud University</a>. ACAIS and the committee are part of study association <a href="http://svcognac.nl">CognAC</a>. Our philosophy: <em>for and by students</em>; organising an event that stimulates new insights and the exchange of information.</p>
+    <p>ACAIS is an annual symposium organised by a team of students, all studying Artificial Intelligence at the <a href="http://www.ru.nl">Radboud University</a>. ACAIS and the committee are part of study association <a href="http://svcognac.nl">CognAC</a>. Our philosophy: <em>for and by students</em>; organising an event that stimulates new insights and the exchange of information.</p>
 
-        <p>ACAIS is non-profit and is fully funded by ticket fees, subsidies and sponsorships. See below for everyone who contributed to eight years of ACAIS history.</p>
+    <p>ACAIS is non-profit and is fully funded by ticket fees, subsidies and sponsorships. See below for everyone who contributed to eight years of ACAIS history.</p>
 
-        <p>See our <a href="previous-editions/">previous editions</a> for more information.</p>
-    </div>
+    <p>See our <a href="previous-editions/">previous editions</a> for more information.</p>
+  </div>
 </div>
 
 <div class="row" id="">
-    <div class="col-md-3 committee-overview">
-        <h3>ACAIS 2015: AI in Health</h3>
-        <ul>
-            <li>Margo van der Stam (Chairman)</li>
-            <li>Zina Al-jibouri (Secretary)</li>
-            <li>Jesse Zwamborn (Treasurer)</li>
-            <li>Wouter Bulten</li>
-            <li>Leonieke van den Bulk</li>
-            <li>Marije de Witte</li>
-            <li>Lino Vliex</li>
-            <li>Robbert Hendriks</li>
-            <li>Maarten Vos</li>
-            <li>Bas Vogelzang</li>
-            <li>Thijs Nieuwdorp</li>
-            <li>Renate Bresser</li>
-            <li>Linde Kuijpers</li>
-        </ul>
-    </div>
-    <div class="col-md-3 committee-overview">
-        <h3><a href="/2014/">ACAIS 2014</a>: Robotics</h3>
-        <ul>
-            <li>Wouter Bulten (Chairman)</li>
-            <li>Margo van der Stam (Vice-Chairman)</li>
-            <li>Harmen Prins (Secretary)</li>
-            <li>Leonieke van den Bulk&nbsp;(Vice-Secretary)</li>
-            <li>Marije de Witte (Treasurer)</li>
-            <li>Lino Vliex (Vice-Treasurer)</li>
-            <li>Robert-Jan Drenth</li>
-            <li>Robbert Hendriks</li>
-            <li>Lotus ter Haar</li>
-            <li>Sanna Dinh</li>
-            <li>Jesse Zwamborn</li>
-            <li>Maarten Vos</li>
-        </ul>
-    </div>
-    <div class="col-md-3 committee-overview">
-        <h3><a href="/2013/">ACAIS 2013</a>: Life</h3>
-        <ul>
-            <li>Wouter Bulten (Chairman)</li>
-            <li>Frank Dorssers (Secretary)</li>
-            <li>Marije de Witte (Treasurer)</li>
-            <li>Margo van der Stam</li>
-            <li>Robert-Jan Drenth</li>
-            <li>Jelte van Waterschoot</li>
-            <li>Denise Slotman</li>
-            <li>Robbert Hendriks</li>
-        </ul>
-    </div>
-    <div class="col-md-3 committee-overview">
-        <h3><a href="/2012/">ACAIS 2012</a>: The Web</h3>
-        <ul>
-            <li>Wouter Bulten (Chairman)</li>
-            <li>Frank Dorssers (Secretary)</li>
-            <li>Marije de Witte (Treasurer)</li>
-            <li>Jelte van Waterschoot</li>
-            <li>Jasper van der Waa</li>
-            <li>Jules Kruijswijk</li>
-            <li>Senna van Iersel</li>
-            <li>Denise Slotman</li>
-        </ul>
-    </div>
+  <div class="col-md-3 committee-overview">
+    <h3>ACAIS 2015: AI in Health</h3>
+    <ul>
+      <li>Margo van der Stam (Chairman)</li>
+      <li>Zina Al-jibouri (Secretary)</li>
+      <li>Jesse Zwamborn (Treasurer)</li>
+      <li>Wouter Bulten</li>
+      <li>Leonieke van den Bulk</li>
+      <li>Marije de Witte</li>
+      <li>Lino Vliex</li>
+      <li>Robbert Hendriks</li>
+      <li>Maarten Vos</li>
+      <li>Bas Vogelzang</li>
+      <li>Thijs Nieuwdorp</li>
+      <li>Renate Bresser</li>
+      <li>Linde Kuijpers</li>
+    </ul>
+  </div>
+  <div class="col-md-3 committee-overview">
+    <h3><a href="/2014/">ACAIS 2014</a>: Robotics</h3>
+    <ul>
+      <li>Wouter Bulten (Chairman)</li>
+      <li>Margo van der Stam (Vice-Chairman)</li>
+      <li>Harmen Prins (Secretary)</li>
+      <li>Leonieke van den Bulk&nbsp;(Vice-Secretary)</li>
+      <li>Marije de Witte (Treasurer)</li>
+      <li>Lino Vliex (Vice-Treasurer)</li>
+      <li>Robert-Jan Drenth</li>
+      <li>Robbert Hendriks</li>
+      <li>Lotus ter Haar</li>
+      <li>Sanna Dinh</li>
+      <li>Jesse Zwamborn</li>
+      <li>Maarten Vos</li>
+    </ul>
+  </div>
+  <div class="col-md-3 committee-overview">
+    <h3><a href="/2013/">ACAIS 2013</a>: Life</h3>
+    <ul>
+      <li>Wouter Bulten (Chairman)</li>
+      <li>Frank Dorssers (Secretary)</li>
+      <li>Marije de Witte (Treasurer)</li>
+      <li>Margo van der Stam</li>
+      <li>Robert-Jan Drenth</li>
+      <li>Jelte van Waterschoot</li>
+      <li>Denise Slotman</li>
+      <li>Robbert Hendriks</li>
+    </ul>
+  </div>
+  <div class="col-md-3 committee-overview">
+    <h3><a href="/2012/">ACAIS 2012</a>: The Web</h3>
+    <ul>
+      <li>Wouter Bulten (Chairman)</li>
+      <li>Frank Dorssers (Secretary)</li>
+      <li>Marije de Witte (Treasurer)</li>
+      <li>Jelte van Waterschoot</li>
+      <li>Jasper van der Waa</li>
+      <li>Jules Kruijswijk</li>
+      <li>Senna van Iersel</li>
+      <li>Denise Slotman</li>
+    </ul>
+  </div>
 </div>
 <div class="row">
-    <div class="col-md-3 committee-overview">
-        <h3><a href="/2011/">ACAIS 2011</a>: Future Helpers</h3>
-        <ul>
-            <li>Wouter Bulten (Chairman)</li>
-            <li>Laurie Bax (Secretary)</li>
-            <li>Marije de Witte (Treasurer)</li>
-            <li>Jelte van Waterschoot</li>
-        </ul>
-    </div>
-    <div class="col-md-3 committee-overview">
-        <h3><a href="/2010/">ACAIS 2010</a>: AI Everywhere</h3>
-        <ul>
-            <li>Bart van Delft (Chairman)</li>
-            <li>Jelmer Wolterink (Treasurer)</li>
-            <li>Wouter Bulten</li>
-            <li>Andrea Loing</li>
-        </ul>
-    </div>
-    <div class="col-md-3 committee-overview">
-        <h3><a href="/2009/">ACAIS 2009</a>: AI &amp; Traffic</h3>
-        <ul>
-            <li>Bart van Delft (Chairman)</li>
-            <li>Jelmer Wolterink (Treasurer)</li>
-        </ul>
-    </div>
-    <div class="col-md-3 committee-overview">
-        <h3><a href="/2008/">ACAIS 2008</a>: AI &amp; Creativity</h3>
-        <ul>
-            <li>Bart van Delft (Chairman)</li>
-            <li>Marlieke van Kesteren</li>
-            <li>Jelmer Wolterink</li>
-            <li>Iris van Rooij</li>
-        </ul>
-    </div>
+  <div class="col-md-3 committee-overview">
+    <h3><a href="/2011/">ACAIS 2011</a>: Future Helpers</h3>
+    <ul>
+      <li>Wouter Bulten (Chairman)</li>
+      <li>Laurie Bax (Secretary)</li>
+      <li>Marije de Witte (Treasurer)</li>
+      <li>Jelte van Waterschoot</li>
+    </ul>
+  </div>
+  <div class="col-md-3 committee-overview">
+    <h3><a href="/2010/">ACAIS 2010</a>: AI Everywhere</h3>
+    <ul>
+      <li>Bart van Delft (Chairman)</li>
+      <li>Jelmer Wolterink (Treasurer)</li>
+      <li>Wouter Bulten</li>
+      <li>Andrea Loing</li>
+    </ul>
+  </div>
+  <div class="col-md-3 committee-overview">
+    <h3><a href="/2009/">ACAIS 2009</a>: AI &amp; Traffic</h3>
+    <ul>
+      <li>Bart van Delft (Chairman)</li>
+      <li>Jelmer Wolterink (Treasurer)</li>
+    </ul>
+  </div>
+  <div class="col-md-3 committee-overview">
+    <h3><a href="/2008/">ACAIS 2008</a>: AI &amp; Creativity</h3>
+    <ul>
+      <li>Bart van Delft (Chairman)</li>
+      <li>Marlieke van Kesteren</li>
+      <li>Jelmer Wolterink</li>
+      <li>Iris van Rooij</li>
+    </ul>
+  </div>
 </div>
 </div>
-<!-- /container -->
+{% endif %}
+{% if site.TBA_modus == true %}
+<div class="TBA">
+  <div class="col-md-6 TBA-box">
+    <div class="TBA-text">
+      <!--
+<h1 class="fronttitle"><span class="brand">ACAIS 2015:</span><br/> <span class="theme">AI in Health</span></h1>
+<p class="lead">With an increasing demand, a requirement for efficiency and low costs and a strive for personally tailored care there is a lot of focus on improving healthcare.</p>
+-->
+      <h1 class="TBA-text">To be announced...</h1>
+      <p class="TBA-text">We're hard at work planning the next symposium! You can: 
+      <ul>
+        <li>Stay up to date by <a href="https://www.facebook.com/ACAIS-1554509421467706">following us on facebook</a>.</li>
+        <li>Check out what previous symposia were about in <a href="/previous-editions/">our archive</a>.</li>
+      </ul></p>
+  </div>
+</div> 
+</div>
+{% endif %}

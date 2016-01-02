@@ -1,5 +1,5 @@
 # Site settings
-title: ACAIS 2015
+title: ACAIS 2016
 
 email: symposium@svcognac.nl
 description: > #The 8th Annual CognAC Artificial Intelligence symposium, ACAIS, focusses on Healthcare. How does AI influence healthcare? How can AI improve the care that we receive?  
@@ -11,6 +11,7 @@ markdown: kramdown
 
 hide_venue: false
 hide_feature_overview: false
+TBA_modus: true
 
 permalink: pretty
 

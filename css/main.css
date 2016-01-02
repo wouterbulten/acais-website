@@ -130,13 +130,7 @@ footer {
 }
 /* Homepage panels */
 
-.tile-features .tile {
-  height: 500px;
-}
 
-.tile-features .tile2 {
-  height: 650px;
-}
 
 .tile-features .tile .btn {
   position: absolute;
@@ -292,6 +286,9 @@ footer {
   }
   p, li {
     font-size: 5vw;
+  }
+  .lead{
+    font-size: 7vw;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {

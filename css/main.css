@@ -93,7 +93,17 @@ footer {
 /* Home page lead */
 
 .jumbotron.landing {
-  background: url("../img/bg-front-filter-dotted.jpg") no-repeat center center fixed; 
+  /*background: url("../img/bg-front-filter-dotted.jpg") no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+
+  border-bottom: 2px solid #c0392b;
+}
+
+.alumni {
+  background: url("../img/spinoza_bg.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size:cover;
   -o-background-size:cover;
